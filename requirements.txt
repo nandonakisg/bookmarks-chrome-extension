@@ -1,0 +1,54 @@
+# Bookmarks Pro Requirements
+
+## Core Features
+- View and manage Chrome bookmarks in a data grid interface
+- Support for both web app and Chrome extension modes
+- Handle large numbers of bookmarks efficiently
+- Preserve nested folder structure with path display
+- Always open in new tab for extension mode (no popup)
+
+## Grid Features
+- Sortable columns
+- Column reordering
+- Quick search/filter across all fields
+- Checkbox selection
+- Auto-fit columns on load
+- Compact row height (32px)
+- Editable title and URL fields
+- Favicon display for URLs
+- Date formatting
+
+## Data Management
+- Delete selected bookmarks
+- Export to CSV with options:
+  - Export selected rows only
+  - Export filtered rows only
+  - Export all rows
+- Proper date handling and formatting
+- Nested folder path display (e.g., "Folder1 / Subfolder / Item")
+
+## UI/UX
+- Modern, clean interface
+- Responsive design
+- Compact layout
+- Quick search field
+- Confirmation for deletions
+- Toolbar with actions
+- Clear visual hierarchy
+
+## Chrome Extension
+- Access to Chrome bookmarks API
+- New tab only (no popup mode)
+- Proper manifest v3 support
+- Icon assets (16px, 48px, 128px)
+- Background service worker for new tab handling
+
+## Technical
+- Vite build system
+- AG Grid Community edition
+- ES modules support
+- Chrome extension APIs
+- CSV export functionality
+- Favicon retrieval
+- Error handling and console logging for major issues
+- Proper build process for extension distribution
